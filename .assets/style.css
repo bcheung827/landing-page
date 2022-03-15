@@ -1,22 +1,45 @@
 * {
-    background-color: aquamarine;
-    font-family: sans-serif;
+    background-color: whitesmoke;
+    font-family: sans-serif;color: black;
 }
 
-header{
-    background-color: green;
+.header h1 {
+    background-color: rgba(98, 0, 255, 0.506);
     height: 200px;
-    font-size: 40px; text-align: center;
-    position: fixed;
-    
-
+    font-size: 50px;
 }
 
-body {
-    color: bisque;
+nav {
+    padding-top: 15px;
+    float: right;
+    background:fixed;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
 }
 
 img {
     border: 10px;
     color: black;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+figcaption {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+.contact {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
 }
