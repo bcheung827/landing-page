@@ -1,23 +1,20 @@
 * {
-    background-color: whitesmoke;
-    font-family: sans-serif;color: black;
+    background-color: rgba(158, 53, 123, 0.376);
+    font-family: sans-serif; color: whitesmoke;
 }
 
 .header h1 {
     background-color: rgba(98, 0, 255, 0.506);
-    height: 200px;
+    padding: 50px;
     font-size: 50px;
+    text-align: center;
 }
 
 nav {
-    padding-top: 15px;
+    display: inline;
     float: right;
-    background:fixed;
-    font-size: 30px;
-}
-
-h1 {
-    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 img {
@@ -29,17 +26,41 @@ img {
     margin-right: auto;
     display: block;
 }
+
 figcaption {
     text-align: center;
 }
 
-h1 {
-    text-align: center;
+.info {
+    padding: 30px;
 }
-.contact {
+h2 {
     text-align: center;
 }
 
-.footer {
+h3 {
     text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    padding: 20px;
+}
+.contactform {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+input {
+    background-color: rgb(218, 109, 109);
+}
+
+
+footer {
+    text-align: center;
+    background-color: rgba(98, 0, 255, 0.506);
+    padding: 50px;
 }
